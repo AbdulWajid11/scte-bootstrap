@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./assets/style/index.css" />
+    <link rel="icon" href="./assets/images/logoicon.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>SCTE</title>
+  </head>
+  <body>
+    <!-- header_container -->
+    <div class="header_container 
+    d-none d-lg-block">
+      <!-- pading_header_logo_form_buttons -->
+      <div class="pading_header_logo_form_buttons px-4 py-1">
+        <!-- header_logo_form_buttons -->
+        <div
+          class="
+            header_logo_form_buttons
+            d-flex
+            justify-content-between
+            align-content-center align-items-center
+            py-3
+          "
+        >
+          <!-- header_logo -->
+          <div class="header_logo">
+            <img src="./assets/images/logo.svg" />
+          </div>
+          <!-- header_form_input -->
+          <div class="header_form_input col-4 d-none d-lg-block">
+            <!-- header_form -->
+            <form class="header_form">
+              <input
+                class="header_input w-100 px-2 py-2"
+                type="text"
+                placeholder="What can we connect you with today?"
+              />
+              <img src="./assets/images/searching.png" />
+            </form>
+          </div>
+          <!-- header_buttons -->
+          <div class="header_buttons d-none d-lg-block">
+            <div class="buttons d-flex align-content-center h-100">
+              <button class="log mr-3">Log In</button>
+              <button class="sign px-3 py-2">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header_ul_div -->
+      <div class="header_ul_div d-none d-lg-block">
+        <ul
+          class="
+            main_ul
+            list-unstyled
+            d-flex
+            justify-content-center
+            font-weight-normal
+            m-0
+          "
+        >
+          <li class="li_just fs_15">What We Do</li>
+          <li class="li_just fs_15">Standards</li>
+          <li class="li_just fs_15">Education</li>
+          <li class="li_just fs_15">Events</li>
+          <li class="li_just fs_15">Certification</li>
+          <li class="li_just fs_15">Chapters</li>
+          <li class="li_just fs_15">Membership</li>
+          <li class="li_just fs_15">Corporate Alliance Program</li>
+        </ul>
+      </div>
+    </div>
+    <!-- header_container_for_responsive -->
+    <div class="header_container_for_responsive d-block d-lg-none ">
+      <!-- hamurger_logo_search -->
+      <div class="hamurger_logo_searching_logo d-flex justify-content-between p-3 align-items-center">
+        <!-- hamburger_div -->
+        <div class="hamburger_div  col-1 p-0 ">
+          <div class="color_hamburger hamburger_pading my-1 hamburger_border"></div>
+          <div class="color_hamburger hamburger_pading my-1 hamburger_border"></div>
+          <div class="color_hamburger hamburger_pading my-1 hamburger_border"></div>
+        </div>
+        <!-- logo_div -->
+        <div class="logo_div col-4 p-0 ">
+          <img src="./assets/images/logo.svg" class="w-100">
+        </div>
+        <!-- searching_logo -->
+        <div class="searching_logo  col-1 p-0">
+          <img src="./assets/images/searching.png"class="w-100">
+        </div>
+      </div>
+    </div>
+
+    <div id="demo" class="carousel slide All_div_carousel" data-ride="carousel">
+      <!-- The slideshow -->
+      <div class="carousel-inner main_All_inner">
+        <div class="div_1_main carousel-item active">
+          <div class="carousel_div d-flex flex-column flex-lg-row">
+            <!-- left_side_image -->
+            <div class="left_side_image col-12 col-lg-6 p-0">
+              <img src="./assets/images/cables.webp" class="image w-100" />
+            </div>
+            <!-- right_side_background -->
+            <div
+              class="
+                right_side_background
+                jumbotron jumbotron-fluid
+                col-12 col-lg-6
+                m-0
+                d-flex
+                flex-column
+                justify-content-center
+                px-5
+              "
+            >
+              <h3 class="right_side_h3 fs_75 font-weight-75">
+                Broadband Library
+              </h3>
+              <p class="right_side_p fs_20 font-weight-normal">
+                Speeding Ahead Together
+              </p>
+              <!-- button_1 -->
+              <div class="button_1 fs_20">
+                <button class="px-4 py-2 my-4">Learn more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div_2_main carousel-item">
+          <div class="carousel_div d-flex flex-column flex-lg-row">
+            <!-- left_side_image_2nd -->
+            <div class="left_side_image col-12 col-lg-6 p-0">
+              <img src="./assets/images/meeting.webp" class="image w-100" />
+            </div>
+            <!-- right_side_background_2nd -->
+            <div
+              class="
+                right_side_background_2nd
+                jumbotron jumbotron-fluid
+                col-12 col-lg-6
+                m-0
+                d-flex
+                flex-column
+                justify-content-center
+                px-5
+              "
+            >
+              <h3 class="right_side_h3 fs_75 font-weight-light">
+                SCTE Corporate Alliance Program
+              </h3>
+              <!-- button_2 -->
+              <div class="button_2 fs_20">
+                <button class="px-4 py-2 my-4">Learn more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="div_3_main carousel-item">
+          <div class="carousel_div d-flex flex-column flex-lg-row">
+            <!-- left_side_image_3rd -->
+            <div class="left_side_image col-12 col-lg-6 p-0">
+              <img src="./assets/images/mobile app.webp" class="image w-100" />
+            </div>
+            <!-- right_side_background -->
+            <div
+              class="
+                right_side_background_3rd
+                jumbotron jumbotron-fluid
+                col-12 col-lg-6
+                m-0
+                d-flex
+                flex-column
+                justify-content-center
+                px-5
+              "
+            >
+              <h3 class="right_side_h3 fs_75 font-weight-light">
+                Download the SCTE® Cable-Tec Expo® 2021 Mobile App
+              </h3>
+              <!-- button_3 -->
+              <div class="button_3 fs_20">
+                <button class="px-4 py-2 my-4">Learn more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    <!-- section_3_background_image_text -->
+    <div class="section_4_3_background_image_text">
+      <div class="background_logo">
+        <!-- heading_text -->
+        <div
+          class="
+            heading_text
+            d-flex
+            flex-column
+            align-items-center
+            justify-content-center
+            align-content-center
+            pt-5
+          "
+        >
+          <h3 class="heading_div fs_80 my-4 col-sm-12 text-center">
+            67 Chapters.
+            <span class="heading_div_span fs_80"> One World. </span>
+          </h3>
+          <p class="heading_text fs_19 text-center font-weight-bold col-lg-6">
+            SCTE Chapters provide local networking, professional development and
+            certification opportunities to current and prospective members
+            across 70 locations across the globe.
+          </p>
+        </div>
+      </div>
+
+      <!-- All_cards_div -->
+      <div
+        class="
+          All_cards_div
+          d-flex
+          flex-column
+          col-lg-12
+          py-5
+          my-5
+          py-lg-0
+          my-lg-0
+          px-4
+        "
+      >
+        <!-- first_3_cards -->
+        <div
+          class="
+            container
+            first_3_cards
+            d-flex
+            flex-column flex-lg-row
+            col-lg-10
+            p-0
+          "
+        >
+          <!-- 1st_card -->
+          <div class="card_1st w-100 mx-1 my-1">
+            <p
+              class="
+                fs_30
+                first_3_color
+                d-flex
+                justify-content-center
+                align-items-center
+                h-100
+                font-weight-normal
+              "
+            >
+              Membership
+            </p>
+          </div>
+          <!-- card_2nd -->
+          <div class="card_2nd w-100 mx-1 my-1">
+            <p
+              class="
+                fs_30
+                first_3_color
+                d-flex
+                justify-content-center
+                align-items-center
+                h-100
+                font-weight-normal
+              "
+            >
+              Standards
+            </p>
+          </div>
+          <!-- card_3rd -->
+          <div class="card_3rd w-100 mx-1 my-1">
+            <p
+              class="
+                fs_30
+                first_3_color
+                d-flex
+                justify-content-center
+                align-items-center
+                h-100
+                font-weight-normal
+              "
+            >
+              Education
+            </p>
+          </div>
+        </div>
+        <!-- last_3_card -->
+        <div
+          class="
+            container
+            last_3_card
+            col-sm-2
+            d-flex
+            flex-column flex-lg-row
+            col-lg-10
+            p-0
+          "
+        >
+          <!-- card_4th -->
+          <div class="card_4th w-100 mx-1 my-1">
+            <p
+              class="
+                fs_30
+                last_3_color
+                d-flex
+                justify-content-center
+                align-items-center
+                h-100
+                font-weight-normal
+              "
+            >
+              Chapters
+            </p>
+          </div>
+          <!-- card_5th -->
+          <div class="card_5th w-100 mx-1 my-1">
+            <p
+              class="
+                fs_30
+                last_3_color
+                d-flex
+                justify-content-center
+                align-items-center
+                h-100
+                font-weight-normal
+                text-center
+                px-5
+                mx-5
+              "
+            >
+              Corporate Alliance Program
+            </p>
+          </div>
+          <!-- card_6th -->
+          <div class="card_6th w-100 mx-1 my-1">
+            <p
+              class="
+                fs_30
+                last_3_color
+                d-flex
+                justify-content-center
+                align-items-center
+                h-100
+                font-weight-normal
+              "
+            >
+              Certification
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- section_5_heading_images -->
+      <div class="section_5_heading_images pt-5 mt-5">
+        <!-- heading_and_text -->
+        <div
+          class="
+            container
+            heading_and_text
+            jumbotron-fluid
+            text-center
+            col-lg-6
+          "
+        >
+          <h3 class="fs_50 heading_color_section_5 font-weight-bold">
+            Member Spotlight
+          </h3>
+          <p class="fs_25 para_color">
+            SCTE recognizes members accomplishing great things in the cable
+            telecommunications industry. Read their stories below.
+          </p>
+        </div>
+        <!-- section_5_image_text -->
+        <div
+          class="
+            section_5_image_text
+            d-flex
+            justify-content-around
+            pt-5
+            flex-column flex-lg-row
+            py-5
+          "
+        >
+          <!-- image_text_1st -->
+          <div class="image_text_1st d-flex col-lg-4">
+            <div class="image_1st w-50">
+              <img
+                src="./assets/images/onepic.webp"
+                class="w-100 image_radius"
+              />
+            </div>
+            <!-- text_1st -->
+            <div class="text_1st px-4 w-50">
+              <h3 class="fs_25 color_name">Matt Petersen</h3>
+              <p class="fs_15 color_p_1">
+                VP Access Architecture, Charter Communications
+              </p>
+              <p class="fs_17 color_p_2">
+                Selected as 2021 Engineer of the Year by Cablefax.
+              </p>
+            </div>
+          </div>
+          <!-- image_text_2nd -->
+          <div class="image_text_2nd d-flex col-lg-4">
+            <div class="image_text_2nd w-50">
+              <img
+                src="./assets/images/twopic.webp"
+                class="w-100 image_radius"
+              />
+            </div>
+            <!-- text_2nd -->
+            <div class="text_2nd px-4 w-50">
+              <h3 class="fs_25 color_name">Noel Dempsey</h3>
+              <p class="fs_15 color_p_1">Member since 2003</p>
+              <p class="fs_17 color_p_2">
+                SCTE/Tuck Leadership Institute class of 2011 alum; Promoted to
+                Regional Vice President of Field Operations for Spectrum’s
+                Northeast Region
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section_6_footer -->
+    <div class="section_6_footer px-3">
+      <!-- section_6_first_3_ul_divs -->
+      <div
+        class="section_6_first_3_ul_divs d-lg-flex justify-content-center py-4"
+      >
+        <!-- ul_1_2_ul -->
+        <div class="ul_1_2_ul d-flex col-lg-3">
+          <!-- ul_div_1st -->
+          <div class="ul_div_1st ul_1_width w-100">
+            <h3 class="heading_color fs_20 font-weight-normal m-0 py-1">
+              Quick Links
+            </h3>
+            <!-- just_ul_1st -->
+            <ul
+              class="just_ul_1st list-unstyled color_ul_1_2 fs_18 line-height"
+            >
+              <li>Standards</li>
+              <li>Education</li>
+              <li>Certification</li>
+              <li>CableLabs</li>
+              <li>Kyrio</li>
+            </ul>
+          </div>
+          <!-- ul_div_2nd -->
+          <div class="ul_div_2nd ul_2_width d-flex align-items-center w-100">
+            <!-- just_ul_2nd -->
+            <ul
+              class="just_ul_2nd list-unstyled color_ul_1_2 fs_18 line-height"
+            >
+              <li>GDPR / Privacy</li>
+              <li>Terms & Conditions</li>
+              <li>Contact</li>
+              <li>Cable-Tec Expo®</li>
+            </ul>
+          </div>
+        </div>
+        <!-- ul_div_3rd -->
+        <div class="ul_div_3rd ul_3_width">
+          <!-- heading_p -->
+          <h3 class="heading_color fs_20 font-weight-normal px-3 m-0 py-1">
+            Contact SCTE
+          </h3>
+          <p class="color_p_ul_3 fs_18 px-3">
+            You are welcome to call upon any staff member for support and
+            assistance.
+          </p>
+          <!-- just_ul_3rd -->
+          <ul class="just_ul_3rd list-unstyled color_p_ul_3 fs_18">
+            <!-- All_4_ul_main_flex -->
+            <div class="All_4_ul_main_flex d-flex flex-column flex-lg-row">
+              <!-- section_6_ul_flex_div -->
+              <div class="section_6_ul_flex_div col-lg-6 line-height">
+                <li>
+                  <img src="./assets/images/building.png" />
+                  140 Philips Rd, Exton, PA 19341
+                </li>
+                <li>
+                  <img src="./assets/images/phone.png" />
+
+                  +1 (610) 363-6888 or +1 (800) 542-5040
+                </li>
+                <li></li>
+              </div>
+
+              <!-- section_6_ul_flex_div -->
+              <div class="section_6_ul_flex_div line-height px-3">
+                <li>
+                  <img src="./assets/images/envelope.png" />
+                  info@scte.org
+                </li>
+                <li>
+                  <img src="./assets/images/fax-machine.png" />
+
+                  +1 (610) 884-7237
+                </li>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+      <!-- section_last_div -->
+      <div class="section_last_div">
+        <!-- text_logos_div -->
+        <div
+          class="
+            text_logos_div
+            d-flex
+            justify-content-center
+            flex-column flex-lg-row
+            border_top
+            py-3
+          "
+        >
+          <!-- text -->
+          <div class="text fs_18 col-lg-8 my-3 p-0">
+            <p class="color_last_p m-0">
+              © 2021 Society of Cable Telecommunications Engineers, Inc. is a
+              subsidiary of CableLabs. All rights reserved.
+            </p>
+          </div>
+          <!-- logos -->
+          <div
+            class="
+              logos
+              col-lg-1
+              p-0
+              d-flex
+              align-items-center
+              px-2 px-lg-0
+              my-4
+            "
+          >
+            <img
+              src="./assets/images/facebook.png"
+              class="last_logo_widths mx-1"
+            />
+            <img
+              src="./assets/images/youtube.png"
+              class="last_logo_widths mx-1"
+            />
+            <img
+              src="./assets/images/twitter.png"
+              class="last_logo_widths mx-1"
+            />
+            <img
+              src="./assets/images/linkedin.png"
+              class="last_logo_widths mx-1"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
